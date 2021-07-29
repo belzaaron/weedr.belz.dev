@@ -27,7 +27,7 @@
         {{ $slot }}
 
         <footer class="pt-3 mt-4 border-top text-muted">
-            Started in {{ date('Y') }} - Developed by <a href="https://belzaaron.com" style="color: #a29bfe;">Aaron Belz</a>.
+            Developed by <a href="https://belzaaron.com" style="color: #a29bfe;">Aaron Belz</a>.
         </footer>
     </div>
 </body>
