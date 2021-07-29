@@ -12,7 +12,7 @@ class IndexController extends Controller
     public function __invoke()
     {
         return view('index', [
-            'widget' => app(GenerationController::class)->perform('20001').'?unit=us',
+            'widget' => app(GenerationController::class)->perform('20001'),
         ]);
     }
 }
